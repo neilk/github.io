@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Simple website test</title>
+    <style type="text/css">
+      #global {
+        display: none;
+      }
+    </style>
+    <script type="text/javascript">
+      function show() {
+        document.getElementById('global').style.display = 'block';
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Simple website test</h1>
+    <p>
+      <a class="hamburger" onclick="show()" href="#">Click me to show the thing</a>
+    </p>
+    <p id="global">
+      Tada!
+    </p>
+  </body>
+</html>
